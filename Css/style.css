@@ -55,6 +55,12 @@ section{
     -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
     box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
 }
+.header_wrapper .nav-item .nav-link.active, .header_wrapper .nav-item .nav-link:hover {
+    color: var(--secondary-color);
+} 
+ul img{
+    cursor: pointer;
+}
 .main-btn{
     display:inline-block;
     border-radius: 26px;
@@ -101,9 +107,9 @@ height: 20rem;
 color: var(--text-white);
  padding: 50px 60px ;
 }
-.erat a{
+/* .erat a{
     margin-left: 60px ;
-}
+} */
 
 
 .sam button{
@@ -113,6 +119,9 @@ color: var(--text-white);
     display: flex;
     padding: 12px 0.9px 11px 0;
     box-sizing: border-box;
+    width: 5rem;
+    height: auto;
+    
 }
  /*NO*/
 
@@ -147,6 +156,9 @@ color: var(--text-white);
     width: 100%;
     height: 50rem; 
 } 
+/* .cpp{
+    width: 100%;
+} */
 .Pro {
     COLOR: #fff !important;
 }
@@ -174,14 +186,13 @@ color: var(--text-white);
     display: inline-block;
     font-weight: 3rem;
 }
-/* .sam1 p{
-    display: flex;
-    align-items: center;
-    width: 424px;
-    box-sizing: border-box;
+ .sam1 p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    /* padding: 10px 20px; */
 
 
-} */
+} 
 .sam1 button{
    position: relative;
    margin-right: 3rem;
@@ -200,6 +211,7 @@ color: var(--text-white);
 }
  
 .redio ul li{
+    cursor: pointer;
     border-radius: 10px;
     background: #C4C4C4;
     width: 20px;
@@ -220,6 +232,12 @@ color: var(--text-white);
 }
 .photo{
   background: var(--bs-red);
+  /* background-image: url(../Image/Vector\ \(1\).png);
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%; 
+    height: 10rem; */
   padding: 5px 5px 5px 5px;
 }
 .par img {
@@ -228,12 +246,13 @@ color: var(--text-white);
     background: #FFFFFF;
     width: 172px;
     height: 184px;
-  }
-  
+}
+
+/* footer */
 footer{
     background: #009688;
     position: relative;
-    margin: 0 90px;
+    /* margin: 0 90px; */
     padding: 39px 44.8px 54px 100px;
     box-sizing: border-box;
     color: #fff;
@@ -243,19 +262,31 @@ footer{
 
 
 
-@media (max-width: 991px) {
-    .header-scrolled {
-         
-            position: fixed;
-            margin-top: 0;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: auto;
-            background-color: var(--bg-dark-blue);
-            -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
-            box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
-        
+@media screen and (max-width: 760px) {
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+    .erat{
+        height: auto;
+    }
+    .sam1 h5{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .RS h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .sam1 button {
+        margin-left: 6rem;
         
     }
+    .sam1 p{
+        
+        padding: 10px 20px;
+    } 
 }
