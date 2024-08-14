@@ -61,24 +61,44 @@ section{
 ul img{
     cursor: pointer;
 }
+/* butom nous rejoindre */
+
 .main-btn{
-    display:inline-block;
-    border-radius: 26px;
-    transition:.2s;
-    padding:10px 37px;
-    background-color:var(--secondary-color);
-    color:var(--text-white);
-    font-weight: 700;
+    background: #FF9800;
+    position: relative;
+    display: flex;
     font-family: var(--primary-font);
-    font-size: 17px;
     text-decoration: none;
+    color:var(--text-white);
+    padding:10px 37px;
+    width: 187px;
     box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    transition:.2s;
+
 }
 .main-btn:hover{
     background-color:var(--bg-blue);
     color:var(--text-white);
 }
 
+/* /* butom nous service et Contactez */
+.mai-btn{
+    background: #F44336;
+    position: relative;
+    display: flex;
+    font-family: var(--primary-font);
+    text-decoration: none;
+    color:var(--text-white);
+    padding:10px 37px;
+    width: 187px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    transition:.2s;
+
+}
+.mai-btn:hover{
+    background-color:var(--bg-blue);
+    color:var(--text-white);
+}
 
 .formation{
 background-image: url("../Image/Rectangle\ 42.png");
@@ -118,10 +138,12 @@ color: var(--text-white);
     margin-right: 9rem;
     position: relative;
     display: flex;
-    padding: 12px 0.9px 11px 0;
+    /* padding: 12px 0.9px 11px 0; */
+    padding:10px 37px;
     box-sizing: border-box;
-    width: 5rem;
+    /* width: 5rem; */
     height: auto;
+    background: #F44336
     
 }
  /*NO*/
@@ -261,7 +283,9 @@ footer{
     box-sizing: border-box;
     color: #fff;
 }
-
+.icon-f{
+    margin: 0 0.3px 108px 0.3px;
+}
 
 
 
