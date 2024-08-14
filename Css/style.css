@@ -83,7 +83,7 @@ ul img{
 
 /* /* butom nous service et Contactez */
 .mai-btn{
-    background: #F44336;
+    background: #F44336 !important;
     position: relative;
     display: flex;
     font-family: var(--primary-font);
