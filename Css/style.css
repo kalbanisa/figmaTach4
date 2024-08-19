@@ -99,7 +99,13 @@ ul img{
     background-color:var(--bg-blue);
     color:var(--text-white);
 }
-
+.Image img{
+width: 100%;
+height: 20rem;
+object-fit: cover;
+overflow: hidden;
+ 
+}
 .formation{
 background-image: url("../Image/Rectangle\ 42.png");
 background-position: center;
@@ -331,5 +337,10 @@ footer{
     section {
         padding-left: 1rem;
         padding-right: 1rem; 
+    }
+/* footer */
+
+    .icon-f{
+        margin: 3px;
     }
 }
