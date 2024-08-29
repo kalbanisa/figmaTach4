@@ -45,7 +45,7 @@ section{
     padding:50px 0;
 }
 .header-scrolled {
-    position: fixed;
+    /* position: fixed; */
     margin-top: 0;
     top: 0;
     left: 0;
@@ -100,8 +100,8 @@ ul img{
     color:var(--text-white);
 }
 .Image img{
-width: 100%;
-height: 20rem;
+width: 110%;
+/* height: 20rem; */
 object-fit: cover;
 overflow: hidden;
  
@@ -129,6 +129,7 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;   
 height: 20rem;
+width: 599px;
 }
 .erat p {
 color: var(--text-white);
@@ -178,19 +179,14 @@ color: var(--text-white);
 }
 /* DIPLOMER */
  .cp{
-    /* background-image: url("../Image/Vector.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50rem;  */
-    background: var(--bs-red);
+     
+    background: #F44336 !important;
 } 
-.cpp{
+/* .cpp{
     padding-left: 6.5rem;
     padding-right: 6.5rem;
     object-fit: cover;
-}
+} */
 .Pro {
     COLOR: #fff !important;
 }
@@ -262,16 +258,7 @@ color: var(--text-white);
 .photo img{
     width: 80%;
 }
-.photo{
-  background: var(--bs-red);
-  /* background-image: url(../Image/Vector\ \(1\).png);
-  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-     width: 100%; 
-    height: 10rem; */
-  padding: 5px 5px 5px 5px;
-}
+ 
 .par img {
     box-shadow: 0px 4px 4px 0px rgba(198, 124, 129, 0.25);
     border-radius: 15px;
@@ -297,14 +284,22 @@ footer{
 
 
 @media screen and (max-width: 760px) {
+    .Image img {
+        /* width: 146%; */
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .erat{  
+        height: auto;
+
+        width: 599px;
+        }
     .header_wrapper .menu-navbar-nav {
         text-align: center;
         background-color: var(--bg-dark-blue);
         padding-bottom: 15px;
     }
-    .erat{
-        height: auto;
-    }
+     
     .mb{
         margin-bottom: -2rem;
     }
@@ -334,10 +329,10 @@ footer{
          width: 100%;
          
     }
-    section {
-        padding-left: 1rem;
-        padding-right: 1rem; 
-    }
+    /* section {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem; 
+    } */
 /* footer */
 
     .icon-f{
