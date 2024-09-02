@@ -7,7 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 :root {
@@ -59,9 +59,7 @@ section{
 .header_wrapper .nav-item .nav-link.active, .header_wrapper .nav-item .nav-link:hover {
     color: var(--secondary-color);
 } 
-ul img{
-    cursor: pointer;
-}
+ 
 /* butom nous rejoindre */
 
 .main-btn{
@@ -76,6 +74,7 @@ ul img{
     box-shadow: 0 0 1px rgb(0 0 0 / 0%);
     transition:.2s;
 
+
 }
 .main-btn:hover{
     background-color:var(--bg-blue);
@@ -83,6 +82,30 @@ ul img{
 }
 
 /* /* butom nous service et Contactez */
+.erat{
+    /* background-image: url(../Image/Rectangle 53.png); */
+    background-image: url(../Image/Rectangle\ 53.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 635px;
+    padding: 143px 0 99.3px;
+}
+.erat p {
+    color: var(--text-white);
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Arial', 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 30px;
+}
+.Image img{
+   width:  622.7px;
+    height: 608.6px;
+    overflow: hidden;
+
+}
 .mai-btn{
     background: #F44336 !important;
     position: relative;
@@ -90,55 +113,52 @@ ul img{
     font-family: var(--primary-font);
     text-decoration: none;
     color:var(--text-white);
-    padding:10px 37px;
-    width: 187px;
+    padding: 10.6px 3.1px 9.6px 0;
+    width: 171px;
+    border-radius: 9.6px;
     box-shadow: 0 0 1px rgb(0 0 0 / 0%);
     transition:.2s;
+    justify-content: center;
 
 }
 .mai-btn:hover{
     background-color:var(--bg-blue);
     color:var(--text-white);
 }
-.Image img{
-width: 110%;
-/* height: 20rem; */
-object-fit: cover;
-overflow: hidden;
  
-}
 .formation{
-background-image: url("../Image/Rectangle\ 42.png");
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-border-radius: 20px;
+    /* background-image: url(../Image/Rectangle 42.png); */
+    background-image: url(../Image/Rectangle\ 42.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-sizing: border-box;
 }
 .formation h5{
-    color:  var(--text-white);
-    text-align: center;
-    padding-top: 30px;
-    font-size: 1rem;
+    color: var(--text-white);
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Arial', 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 28px;
+    padding: 20px 30px;
 
 }
 .formation img{
-    width: 2rem;
+    width: 47px;
+    height: 52px;
 }
-.erat{
-background-image: url("../Image/Rectangle\ 53.png");
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;   
-height: 20rem;
-width: 599px;
+.Pro {
+    COLOR: #fff !important;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Arial', 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 17px;
 }
-.erat p {
-color: var(--text-white);
- padding: 50px 60px ;
-}
-/* .erat a{
-    margin-left: 60px ;
-} */
+ 
 
 
 .sam button{
@@ -153,6 +173,26 @@ color: var(--text-white);
     height: auto;
     background: #F44336
     
+}
+.sam h5{
+    margin: 0 17.6px 67px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 28px;
+}
+.sam p{
+    margin-bottom: 66px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Arial', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    padding: 20px 30px;
+  
+
 }
  /*NO*/
 
@@ -188,9 +228,7 @@ color: var(--text-white);
     padding-right: 6.5rem;
     object-fit: cover;
 } */
-.Pro {
-    COLOR: #fff !important;
-}
+
 .Pro h5{
  align-self: flex-start;
  font-size: 36px;
